@@ -30,7 +30,7 @@
       zoom: initialState.zoom,
     });
 
-    var libData = `https://raw.githubusercontent.com/stahlenstein/NycLibMap/master/static/Data/Libraries.geojson`;
+    var libData = `https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/Libraries.geojson`;
 
     // extend mapboxGL Marker so we can pass in an onClick handler
     class ClickableMarker extends mapboxgl.Marker {
@@ -91,6 +91,8 @@
             iB.style.zIndex = -1;
           });
 
+
+
           // Add markers to the map.
           for (const marker of data.features) {
             // Create a DOM element for each marker.
@@ -112,6 +114,8 @@
             var libStatus = document.querySelector(".libStatus");
             var libCoord = document.querySelector(".libCoord");
 
+        
+
             new ClickableMarker(m)
               .setLngLat(marker.geometry.coordinates)
               .onClick(() => {
@@ -131,17 +135,26 @@
                 libCoord.innerHTML = `${marker.properties.coordinator}`;
               })
               .addTo(map);
+              
 
-            // Add markers to the map.
-            // new mapboxgl.Marker(m)
-            //   .setLngLat(marker.geometry.coordinates)
-            //   .addTo(map);
+
           }
+
+          var allMarks = document.querySelectorAll("#marker")
+          map.on('zoom', () => {
+            const currentZoom = map.getZoom();
+            if(currentZoom >= 18) {
+              for(let i = 0; i < allMarks.length; i++) {
+                console.log(i)
+            }
+          }
+        });
 
           map.addLayer({
             id: "libraries",
             type: "circle",
             source: "libraries",
+            "minzoom": 12,
             paint: {
               "circle-radius": 8,
               "circle-stroke-width": 3,
@@ -181,11 +194,12 @@
             iBDiv.style.zIndex = 1;
           });
         });
-
-      const response = fetch(`/static/data/buildingftprints.geojson`);
-      const footprints = response.json();
-
-      map.addSource("footprints", {
+        
+        fetch(`https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/buildingftprints.geojson`)
+        .then((response) => response.json())
+        .then((footprints) => {
+        
+          map.addSource("footprints", {
             type: "geojson",
             data: footprints,
           });
@@ -195,9 +209,13 @@
             type: "fill",
             source: "footprints",
             paint: {
-              "fill-color": "black"
+              "fill-color": "rgba(100, 100, 100, 0.25)",
+              "fill-outline-color": "black"
             },
           });
+        });
+
+
 
     });
 
