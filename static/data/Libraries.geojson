@@ -1,0 +1,1774 @@
+{
+	"type": "FeatureCollection",
+	"name": "Libraries",
+	"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "HU",
+				"city": "New York",
+				"name": "115th Street",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10026",
+				"url": "http://www.nypl.org/locations/115th-street",
+				"network":"W-MH",
+				"coordinator": "Carlos Melendez",
+				"streetname": "West 115th Street",
+				"housenum": "203",
+				"borough": "Manhattan",
+				"bin": "1055236"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.953530744303933, 40.802979881966763] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "HD",
+				"city": "New York",
+				"name": "125th Street",
+				"status": "Closed",
+				"system": "NYPL",
+				"zip": "10035",
+				"url": "http://www.nypl.org/locations/125th-street",
+				"network": "E-MH",
+				"coordinator": "Emanuel Roberts",
+				"streetname": "East 125th Street",
+				"housenum": "224",
+				"borough": "Manhattan",
+				"bin": "1054674"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.934847563324695, 40.80301816141575] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "53STR",
+				"city": "New York",
+				"name": "53rd Street",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10019",
+				"url": "http://www.nypl.org/locations/53rd-street",
+				"network": "E-MH",
+				"coordinator": "Emanuel Roberts",
+				"streetname": "West 53rd Street",
+				"housenum": "18",
+				"borough": "Manhattan",
+				"bin": "1089376"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.977363292706968, 40.760806894741719] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "FE",
+				"city": "New York",
+				"name": "58th Street",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10022",
+				"url": "http://www.nypl.org/locations/58th-street",
+				"network": "E-MH",
+				"coordinator": "Emanuel Roberts",
+				"streetname": "East 58th Street",
+				"housenum": "127",
+				"borough": "Manhattan",
+				"bin": "1037165"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.969381704657593, 40.762186017723501] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "SS",
+				"city": "New York",
+				"name": "67th Street",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10065",
+				"url": "http://www.nypl.org/locations/67th-street",
+				"network": "E-MH",
+				"coordinator": "Emanuel Roberts",
+				"streetname": "East 67th Street",
+				"housenum": "328",
+				"borough": "Manhattan",
+				"bin": "1044749"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.959549945842426, 40.764915006253425] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "NRS",
+				"city": "New York",
+				"name": "96th Street",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10128",
+				"url": "http://www.nypl.org/locations/96th-street",
+				"network": "E-MH",
+				"coordinator": "Emanuel Roberts",
+				"streetname": "East 96th Street",
+				"housenum": "112",
+				"borough": "Manhattan",
+				"bin": "1048501"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.951805671620804, 40.785959798621555] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "AG",
+				"city": "New York",
+				"name": "Aguilar",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10029",
+				"url": "http://www.nypl.org/locations/aguilar",
+				"network": "E-MH",
+				"coordinator": "Emanuel Roberts",
+				"streetname": "East 110th Street",
+				"housenum": "174",
+				"borough": "Manhattan",
+				"bin": "1052167"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.943458278538145, 40.794214765463728] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "AL",
+				"city": "Bronx",
+				"name": "Allerton",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10467",
+				"url": "http://www.nypl.org/locations/allerton",
+				"network": "C-BX",
+				"coordinator": "Orlando Toro",
+				"streetname": "Barnes Avenue",
+				"housenum": "2740",
+				"borough": "Bronx",
+				"bin": "2053752"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.863222484839682, 40.866804429026935] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "LB",
+				"city": "New York",
+				"name": "Andrew Heiskell Braille and Talking Book",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10011",
+				"url": "http://www.nypl.org/locations/heiskell",
+				"network": "L-MH",
+				"coordinator": "Kevin Franco",
+				"streetname": "West 20th Street",
+				"housenum": "40",
+				"borough": "Manhattan",
+				"bin": "1076145"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.993356911186737, 40.740465455610881] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "BPC",
+				"city": "New York",
+				"name": "Battery Park City Library",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10282",
+				"url": "http://www.nypl.org/locations/battery-park-city",
+				"network": "L-MH",
+				"coordinator": "Kevin Franco",
+				"streetname": "North End Avenue",
+				"housenum": "175",
+				"borough": "Manhattan",
+				"bin": "1087518"
+			},
+			"geometry": { "type": "Point", "coordinates": [-74.015748712327195, 40.715690873439094] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "BAR",
+				"city": "Bronx",
+				"name": "Baychester",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10475",
+				"url": "http://www.nypl.org/locations/baychester",
+				"network": "E-BX",
+				"coordinator": "Kenneth Nesbitt",
+				"streetname": "Asch Loop North",
+				"housenum": "2049",
+				"borough": "Bronx",
+				"bin": "2097466"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.829315945672178, 40.870753308087892] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "BER",
+				"city": "Bronx",
+				"name": "Belmont Library and Enrico Fermi Cultural Center",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10458",
+				"url": "http://www.nypl.org/locations/belmont",
+				"network": "C-BX",
+				"coordinator": "Orlando Toro",
+				"streetname": "East 186th Street",
+				"housenum": "610",
+				"borough": "Bronx",
+				"bin": "2012129"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.887882685265438, 40.854344214518612] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "BLR",
+				"city": "New York",
+				"name": "Bloomingdale",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10025",
+				"url": "http://www.nypl.org/locations/bloomingdale",
+				"network": "W-MH",
+				"coordinator": "Orlando Toro",
+				"streetname": "West 100th Street",
+				"housenum": "150",
+				"borough": "Manhattan",
+				"bin": "1055906"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.967606771352735, 40.795873546480152] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "BLC",
+				"city": "Bronx",
+				"name": "Bronx Library Center",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10458",
+				"url": "http://www.nypl.org/locations/bronx-library-center",
+				"network": "C-BX",
+				"coordinator": "Emely Hernandez",
+				"streetname": "East Kingsbridge Road",
+				"housenum": "310",
+				"borough": "Bronx",
+				"bin": "2116006"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.894502886450439, 40.862980605193208] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "CT",
+				"city": "Bronx",
+				"name": "Castle Hill",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10473",
+				"url": "http://www.nypl.org/locations/castle-hill",
+				"network": "E-BX",
+				"coordinator": "Kenneth Nesbitt",
+				"streetname": "Castle Hill Avenue",
+				"housenum": "947",
+				"borough": "Bronx",
+				"bin": "2022944"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.850170197173824, 40.826629208100229] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "CHR",
+				"city": "New York",
+				"name": "Chatham Square",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10002",
+				"url": "http://www.nypl.org/locations/chatham-square",
+				"network": "L-MH",
+				"coordinator": "Kevin Franco",
+				"streetname": "East Broadway",
+				"housenum": "33",
+				"borough": "Manhattan",
+				"bin": "1003425"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.996489866367213, 40.713333070507467] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "CI",
+				"city": "Bronx",
+				"name": "City Island",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10464",
+				"url": "http://www.nypl.org/locations/city-island",
+				"network": "E-BX",
+				"coordinator": "Kenneth Nesbitt",
+				"streetname": "City Island Avenue",
+				"housenum": "320",
+				"borough": "Bronx",
+				"bin": "2082611"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.786366589008082, 40.847691903619904] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "CP",
+				"city": "Bronx",
+				"name": "Clason's Point",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10472",
+				"url": "http://www.nypl.org/locations/clasons-point",
+				"network": "C-BX",
+				"coordinator": "Orlando Toro",
+				"streetname": "Morrison Avenue",
+				"housenum": "1215",
+				"borough": "Bronx",
+				"bin": "2025381"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.875020600240475, 40.829992875279167] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "CS",
+				"city": "New York",
+				"name": "Columbus",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10019",
+				"url": "http://www.nypl.org/locations/columbus",
+				"network": "W-MH",
+				"coordinator": "Carlos Melendez",
+				"streetname": "10th Avenue",
+				"housenum": "742",
+				"borough": "Manhattan",
+				"bin": "1026706"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.991220817837117, 40.764934618394804] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "CC",
+				"city": "New York",
+				"name": "Countee Cullen",
+				"status": "Closed",
+				"system": "NYPL",
+				"zip": "10030",
+				"url": "http://www.nypl.org/locations/countee-cullen",
+				"network": "E-MH",
+				"coordinator": "Courtney Addison",
+				"streetname": "West 136th Street",
+				"housenum": "104",
+				"borough": "Manhattan",
+				"bin": "1058275"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.941160923509628, 40.814835821381571] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "DH",
+				"city": "Staten Island",
+				"name": "Dongan Hills",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10304",
+				"url": "http://www.nypl.org/locations/dongan-hills",
+				"network": "SI",
+				"coordinator": "Jgn Fradella",
+				"streetname": "Richmond Road",
+				"housenum": "1617",
+				"borough": "Staten Island",
+				"bin": "5022895"
+			},
+			"geometry": { "type": "Point", "coordinates": [-74.101137289358107, 40.590391335997872] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "EA",
+				"city": "Bronx",
+				"name": "Eastchester",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10469",
+				"url": "http://www.nypl.org/locations/eastchester",
+				"network": "E-BX",
+				"coordinator": "Kenneth Nesbitt",
+				"streetname": "East Gun Hill Road",
+				"housenum": "1385",
+				"borough": "Bronx",
+				"bin": "2061767"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.845064275328639, 40.870139702970548] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "EW",
+				"city": "Bronx",
+				"name": "Edenwald",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10466",
+				"url": "http://www.nypl.org/locations/edenwald",
+				"network": "E-BX",
+				"coordinator": "Kenneth Nesbitt",
+				"streetname": "East 233rd Street",
+				"housenum": "1255",
+				"borough": "Bronx",
+				"bin": "2066596"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.840837127854925, 40.88889489584642] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "EP",
+				"city": "New York",
+				"name": "Epiphany",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10010",
+				"url": "http://www.nypl.org/locations/epiphany",
+				"network": "L-MH",
+				"coordinator": "Kevin Franco",
+				"streetname": "East 23rd Street",
+				"housenum": "228",
+				"borough": "Manhattan",
+				"bin": "1019661"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.982048889642641, 40.738087120390595] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "FW",
+				"city": "New York",
+				"name": "Fort Washington",
+				"status": "Closed",
+				"system": "NYPL",
+				"zip": "10033",
+				"url": "http://www.nypl.org/locations/fort-washington",
+				"network": "W-MH",
+				"coordinator": "Carlos Melendez",
+				"streetname": "West 179th Street",
+				"housenum": "535",
+				"borough": "Manhattan",
+				"bin": "1063632"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.933865913124492, 40.847870041168214] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "FXR",
+				"city": "Bronx",
+				"name": "Francis Martin",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10453",
+				"url": "http://www.nypl.org/locations/francis-martin",
+				"network": "W-BX",
+				"coordinator": "Erik Ramirez",
+				"streetname": "University Avenue",
+				"housenum": "2150",
+				"borough": "Bronx",
+				"bin": "2014579"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.909316350324275, 40.857421894227791] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "BR",
+				"city": "New York",
+				"name": "George Bruce",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10027",
+				"url": "http://www.nypl.org/locations/george-bruce",
+				"network": "W-MH",
+				"coordinator": "Carlos Melendez",
+				"streetname": "West 125th Street",
+				"housenum": "518",
+				"borough": "Manhattan",
+				"bin": "1059688"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.957053206549986, 40.813768964572695] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "GCB",
+				"city": "New York",
+				"name": "Grand Central",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10017",
+				"url": "http://www.nypl.org/locations/grand-central",
+				"network": "E-MH",
+				"coordinator": "Emanuel Roberts",
+				"streetname": "East 46th Street",
+				"housenum": "135",
+				"borough": "Manhattan",
+				"bin": "1036206"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.973567716833443, 40.754067875550625] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "GD",
+				"city": "Bronx",
+				"name": "Grand Concourse",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10457",
+				"url": "http://www.nypl.org/locations/grand-concourse",
+				"network": "W-BX",
+				"coordinator": "Erik Ramirez",
+				"streetname": "East 173rd Street",
+				"housenum": "155",
+				"borough": "Bronx",
+				"bin": "2007870"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.910087144493843, 40.844001911750446] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "GK",
+				"city": "Staten Island",
+				"name": "Great Kills",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10308",
+				"url": "http://www.nypl.org/locations/great-kills",
+				"network": "SI",
+				"coordinator": "Jogn Fradella",
+				"streetname": "Giffords Lane",
+				"housenum": "56",
+				"borough": "Staten Island",
+				"bin": "5070285"
+			},
+			"geometry": { "type": "Point", "coordinates": [-74.151111643136844, 40.552423262807963] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "HF",
+				"city": "New York",
+				"name": "Hamilton Fish Park",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10002",
+				"url": "http://www.nypl.org/locations/hamilton-fish-park",
+				"network": "L-MH",
+				"coordinator": "Kevin Franco",
+				"streetname": "East Houston Street",
+				"housenum": "415",
+				"borough": "Manhattan",
+				"bin": "1004070"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.979423144174447, 40.719780154382761] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "HG",
+				"city": "New York",
+				"name": "Hamilton Grange",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10031",
+				"url": "http://www.nypl.org/locations/hamilton-grange",
+				"network": "W-MH",
+				"coordinator": "Carlos Melendez",
+				"streetname": "West 145th Street",
+				"housenum": "503",
+				"borough": "Manhattan",
+				"bin": "1061938"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.948032418901917, 40.82567237379984] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "HL",
+				"city": "New York",
+				"name": "Harlem",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10027",
+				"url": "http://www.nypl.org/locations/harlem",
+				"network": "E-MH",
+				"coordinator": "Emanuel Roberts",
+				"streetname": "West 124th Street",
+				"housenum": "9",
+				"borough": "Manhattan",
+				"bin": "1053460"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.943315598382569, 40.80616044207548] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "HB",
+				"city": "Bronx",
+				"name": "High Bridge",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10452",
+				"url": "http://www.nypl.org/locations/high-bridge",
+				"network": "W-BX",
+				"coordinator": "Orlando Toro",
+				"streetname": "West 168th Street",
+				"housenum": "78",
+				"borough": "Bronx",
+				"bin": "2003163"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.923550901569513, 40.837960016855035] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "HP",
+				"city": "New York",
+				"name": "Hudson Park",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10014",
+				"url": "http://www.nypl.org/locations/hudson-park",
+				"network": "L-MH",
+				"coordinator": "Kevin Franco",
+				"streetname": "Leroy Street",
+				"housenum": "66",
+				"borough": "Manhattan",
+				"bin": "1009760"
+			},
+			"geometry": { "type": "Point", "coordinates": [-74.00533101445356, 40.729982914586529] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "HK",
+				"city": "Staten Island",
+				"name": "Huguenot Park",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10312",
+				"url": "http://www.nypl.org/locations/huguenot-park",
+				"network": "SI",
+				"coordinator": "Jogn Fradella",
+				"streetname": "Huguenot Avenue",
+				"housenum": "830",
+				"borough": "Staten Island",
+				"bin": "5083401"
+			},
+			"geometry": { "type": "Point", "coordinates": [-74.193229006501824, 40.534078493080344] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "HSR",
+				"city": "Bronx",
+				"name": "Hunts Point",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10459",
+				"url": "http://www.nypl.org/locations/hunts-point",
+				"network": "C-BX",
+				"coordinator": "Orlando Toro",
+				"streetname": "Southern Boulevard",
+				"housenum": "877",
+				"borough": "Bronx",
+				"bin": "2005755"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.894132165803882, 40.818670087188615] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "INR",
+				"city": "New York",
+				"name": "Inwood",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10034",
+				"url": "http://www.nypl.org/locations/inwood",
+				"network": "W-MH",
+				"coordinator": "Carlos Melendez",
+				"streetname": "Broadway",
+				"housenum": "4790",
+				"borough": "Manhattan",
+				"bin": "1064894"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.925862909172508, 40.865748720737024] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "JMR",
+				"city": "New York",
+				"name": "Jefferson Market",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10011",
+				"url": "http://www.nypl.org/locations/jefferson-market",
+				"network": "L-MH",
+				"coordinator": "Mariusz Mrzyk",
+				"streetname": "Avenue of the Americas",
+				"housenum": "425",
+				"borough": "Manhattan",
+				"bin": "1082668"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.999169285133149, 40.734634708308469] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "JP",
+				"city": "Bronx",
+				"name": "Jerome Park",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10468",
+				"url": "http://www.nypl.org/locations/jerome-park",
+				"network": "W-BX",
+				"coordinator": "Erik Ramirez",
+				"streetname": "Eames Place",
+				"housenum": "118",
+				"borough": "Bronx",
+				"bin": "2015263"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.901192359629178, 40.869069866893021] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "KBR",
+				"city": "Bronx",
+				"name": "Kingsbridge",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10463",
+				"url": "http://www.nypl.org/locations/kingsbridge",
+				"network": "W-BX",
+				"coordinator": "Erik Ramirez",
+				"streetname": "West 231st Street",
+				"housenum": "291",
+				"borough": "Bronx",
+				"bin": "2119474"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.907705951996462, 40.880699890380043] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "KP",
+				"city": "New York",
+				"name": "Kips Bay",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10016",
+				"url": "http://www.nypl.org/locations/kips-bay",
+				"network": "L-MH",
+				"coordinator": "Kevin Franco",
+				"streetname": "Third Avenue",
+				"housenum": "446",
+				"borough": "Manhattan",
+				"bin": "1018325"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.979901958531627, 40.743809620132417] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "MB",
+				"city": "New York",
+				"name": "Macomb's Bridge",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10039",
+				"url": "http://www.nypl.org/locations/macombs-bridge",
+				"network": "W-MH",
+				"coordinator": "Kevin Franco",
+				"streetname": "Adam Clayton Powell Jr. Boulevard",
+				"housenum": "2650",
+				"borough": "Manhattan",
+				"bin": "1084156"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.935862462506975, 40.826532013394228] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "MH",
+				"city": "Staten Island",
+				"name": "Mariners Harbor",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10303",
+				"url": "http://www.nypl.org/locations/mariners-harbor",
+				"network": "SI",
+				"coordinator": "John Fradella",
+				"streetname": "South Ave",
+				"housenum": "206",
+				"borough": "Staten Island",
+				"bin": "5109138"
+			},
+			"geometry": { "type": "Point", "coordinates": [-74.166581905023648, 40.634693431844688] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "ME",
+				"city": "Bronx",
+				"name": "Melrose",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10451",
+				"url": "http://www.nypl.org/locations/melrose",
+				"network": "W-BX",
+				"coordinator": "Orlando Toro",
+				"streetname": "Morris Avenue",
+				"housenum": "910",
+				"borough": "Bronx",
+				"bin": "2001950"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.917583936035612, 40.826584558970666] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "SNFL",
+				"city": "New York",
+				"name": "Stavros Niacrchos Foundation Library",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10016",
+				"url": "http://www.nypl.org/locations/mid-manhattan-library",
+				"network": "",
+				"coordinator": "Stephen Vellon",
+				"streetname": "Fifth Avenue",
+				"housenum": "455",
+				"borough": "Manhattan",
+				"bin": "1017602"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.981698510789172, 40.751891561710309] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "CL",
+				"city": "New York",
+				"name": "Morningside Heights",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10025",
+				"url": "http://www.nypl.org/locations/morningside-heights",
+				"network": "W-MH",
+				"coordinator": "Carlos Melendez",
+				"streetname": "Broadway",
+				"housenum": "2900",
+				"borough": "Manhattan",
+				"bin": "1057018"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.96477561597041, 40.806130258008373] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "MP",
+				"city": "Bronx",
+				"name": "Morris Park",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10462",
+				"url": "http://www.nypl.org/locations/morris-park",
+				"network": "C-BX",
+				"coordinator": "Erik Ramirez",
+				"streetname": "Morris Park Avenue",
+				"housenum": "985",
+				"borough": "Bronx",
+				"bin": "2045398"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.856957853753741, 40.848029110055521] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "MR",
+				"city": "Bronx",
+				"name": "Morrisania",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10456",
+				"url": "http://www.nypl.org/locations/morrisania",
+				"network": "C-BX",
+				"coordinator": "Orlando Toro",
+				"streetname": "East 169th Street",
+				"housenum": "610",
+				"borough": "Bronx",
+				"bin": "2004303"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.901794072061833, 40.831262912014793] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "MO",
+				"city": "Bronx",
+				"name": "Mosholu",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10467",
+				"url": "http://www.nypl.org/locations/mosholu",
+				"network": "W-BX",
+				"coordinator": "Erik Ramirez",
+				"streetname": "East 205th Street",
+				"housenum": "285",
+				"borough": "Bronx",
+				"bin": "2018123"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.878384350324481, 40.874379813989378] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "MH",
+				"city": "Bronx",
+				"name": "Mott Haven",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10454",
+				"url": "http://www.nypl.org/locations/mott-haven",
+				"network": "C-BX",
+				"coordinator": "Orlando Toro",
+				"streetname": "East 140th Street",
+				"housenum": "321",
+				"borough": "Bronx",
+				"bin": "2000744"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.92438195200242, 40.811589637752462] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "MU",
+				"city": "New York",
+				"name": "Muhlenberg",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10011",
+				"url": "http://www.nypl.org/locations/muhlenberg",
+				"network": "W-MH",
+				"coordinator": "Carlos Melendez",
+				"streetname": "West 23rd Street",
+				"housenum": "209",
+				"borough": "Manhattan",
+				"bin": "1014150"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.995968569069802, 40.744487330654948] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "ML",
+				"city": "New York",
+				"name": "Mulberry Street",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10012",
+				"url": "http://www.nypl.org/locations/mulberry-street",
+				"network": "L-MH",
+				"coordinator": "Kevin Franco",
+				"streetname": "Jersey Street",
+				"housenum": "10",
+				"borough": "Manhattan",
+				"bin": "1007931"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.995684168594536, 40.724139266055431] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "LM",
+				"city": "New York",
+				"name": "New Amsterdam",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10007",
+				"url": "http://www.nypl.org/locations/new-amsterdam",
+				"network": "L-MH",
+				"coordinator": "Kevin Franco",
+				"streetname": "Murray Street",
+				"housenum": "9",
+				"borough": "Manhattan",
+				"bin": "1001446"
+			},
+			"geometry": { "type": "Point", "coordinates": [-74.00786921340098, 40.71357685109021] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "NDR",
+				"city": "Staten Island",
+				"name": "New Dorp",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10306",
+				"url": "http://www.nypl.org/locations/new-dorp",
+				"network": "SI",
+				"coordinator": "John Fradella",
+				"streetname": "New Dorp Lane",
+				"housenum": "309",
+				"borough": "Staten Island",
+				"bin": "5052750"
+			},
+			"geometry": { "type": "Point", "coordinates": [-74.111958147481147, 40.571931848365132] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "LPA",
+				"city": "New York",
+				"name": "Library for the Performing Arts, Dorothy and Lewis B. Cullman Center",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10023",
+				"url": "http://www.nypl.org/locations/lpa",
+				"network": "",
+				"coordinator": "Michelle Perez",
+				"streetname": "Lincoln Center Plaza",
+				"housenum": "40",
+				"borough": "Manhattan",
+				"bin": "1028832"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.984546845228408, 40.773506991192697] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "LSC",
+				"city": "New York",
+				"name": "Library Services Center",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "101101",
+				"url": "https://sites.google.com/a/nypl.org/bookops/home",
+				"network": "",
+				"coordinator": "Eric Maurer",
+				"streetname": "Thomson Ave",
+				"housenum": "3111",
+				"borocode": "",
+				"bin": ""
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.9350166, 40.7453581] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "OT",
+				"city": "New York",
+				"name": "Ottendorfer",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10003",
+				"url": "http://www.nypl.org/locations/ottendorfer",
+				"network": "L-MH",
+				"coordinator": "Kevin Franco",
+				"streetname": "Second Avenue",
+				"housenum": "135",
+				"borough": "Manhattan",
+				"bin": "1079841"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.987742841046625, 40.72890664078863] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "PKR",
+				"city": "Bronx",
+				"name": "Parkchester",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10462",
+				"url": "http://www.nypl.org/locations/parkchester",
+				"network": "E-BX",
+				"coordinator": "Kenneth Nesbitt",
+				"streetname": "Westchester Avenue",
+				"housenum": "1985",
+				"borough": "Bronx",
+				"bin": "2028890"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.858350048160816, 40.833780985295448] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "PM",
+				"city": "Bronx",
+				"name": "Pelham Bay",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10461",
+				"url": "http://www.nypl.org/locations/pelham-bay",
+				"network": "E-BX",
+				"coordinator": "Kenneth Nesbitt",
+				"streetname": "Middletown Road",
+				"housenum": "3060",
+				"borough": "Bronx",
+				"bin": "2074963"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.827900172374925, 40.844317529931516] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "VN",
+				"city": "Bronx",
+				"name": "Pelham Parkway-Van Nest",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10462",
+				"url": "http://www.nypl.org/locations/pelham-parkway-van-nest",
+				"network": "C-BX",
+				"coordinator": "Orlando Toro",
+				"streetname": "Barnes Avenue",
+				"housenum": "2147",
+				"borough": "Bronx",
+				"bin": "2049427"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.864146661633598, 40.854875880273838] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "PR",
+				"city": "Staten Island",
+				"name": "Port Richmond",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10302",
+				"url": "http://www.nypl.org/locations/port-richmond",
+				"network": "SI",
+				"coordinator": "John Fradella",
+				"streetname": "Bennett Street",
+				"housenum": "75",
+				"borough": "Staten Island",
+				"bin": "5023763"
+			},
+			"geometry": { "type": "Point", "coordinates": [-74.131104615083984, 40.637585616003591] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "RT",
+				"city": "Staten Island",
+				"name": "Richmondtown",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10306",
+				"url": "http://www.nypl.org/locations/richmondtown",
+				"network": "SI",
+				"coordinator": "John Fradella",
+				"streetname": "Clarke Avenue",
+				"housenum": "200",
+				"borough": "Staten Island",
+				"bin": "5060744"
+			},
+			"geometry": { "type": "Point", "coordinates": [-74.138533876463114, 40.566530146210184] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "RD",
+				"city": "Bronx",
+				"name": "Riverdale",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10471",
+				"url": "http://www.nypl.org/locations/riverdale",
+				"network": "W-BX",
+				"coordinator": "Erik Ramirez",
+				"streetname": "Mosholu Avenue",
+				"housenum": "5540",
+				"borough": "Bronx",
+				"bin": "2084790"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.902772542806929, 40.903722777079778] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "R",
+				"city": "New York",
+				"name": "Riverside",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10023",
+				"url": "http://www.nypl.org/locations/riverside",
+				"network": "W-MH",
+				"coordinator": "Carlos Melendez",
+				"streetname": "Amsterdam Avenue",
+				"housenum": "127",
+				"borough": "Manhattan",
+				"bin": "1077844"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.984512161965625, 40.774232078610218] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "RI",
+				"city": "New York",
+				"name": "Roosevelt Island",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10044",
+				"url": "http://www.nypl.org/locations/roosevelt-island",
+				"network": "E-MH",
+				"coordinator": "Emanuel Melendez",
+				"streetname": "Main Street",
+				"housenum": "524",
+				"borough": "Manhattan",
+				"bin": "1084695"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.950205674135077, 40.761232757278258] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "SCH",
+				"city": "New York",
+				"name": "Schomburg Center for Research in Black Culture",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10037",
+				"url": "http://www.nypl.org/locations/schomburg",
+				"network": "",
+				"coordinator": "Corutney Addison",
+				"streetname": "Malcolm X Boulevard",
+				"housenum": "515",
+				"borough": "Manhattan",
+				"bin": "1058276"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.940943938376108, 40.814648624040331] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "SIBL",
+				"city": "New York",
+				"name": "Science, Industry and Business Library (SIBL)",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10016",
+				"url": "http://www.nypl.org/locations/sibl",
+				"network": "L-MH",
+				"coordinator": "",
+				"streetname": "Madison Avenue",
+				"housenum": "188",
+				"borough": "Manhattan",
+				"bin": "1087934"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.983009217628137, 40.748115158374091] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "SD",
+				"city": "Bronx",
+				"name": "Sedgwick",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10453",
+				"url": "http://www.nypl.org/locations/sedgwick",
+				"network": "W-BX",
+				"coordinator": "Erik Ramirez",
+				"streetname": "Martin Luther King Jr. Boulevard",
+				"housenum": "1701",
+				"borough": "Bronx",
+				"bin": "2100281"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.917495017306805, 40.849444506294475] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "SE",
+				"city": "New York",
+				"name": "Seward Park",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10002",
+				"url": "http://www.nypl.org/locations/seward-park",
+				"network": "L-MH",
+				"coordinator": "Kevin Franco",
+				"streetname": "East Broadway",
+				"housenum": "192",
+				"borough": "Manhattan",
+				"bin": "1004053"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.988501018144362, 40.714409550334921] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "SV",
+				"city": "Bronx",
+				"name": "Soundview",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10473",
+				"url": "http://www.nypl.org/locations/soundview",
+				"network": "E-BX",
+				"coordinator": "Kenneth Nesbitt",
+				"streetname": "Soundview Avenue",
+				"housenum": "660",
+				"borough": "Bronx",
+				"bin": "2021838"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.862889956080423, 40.818709352248625] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "SB",
+				"city": "Staten Island",
+				"name": "South Beach",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10305",
+				"url": "http://www.nypl.org/locations/south-beach",
+				"network": "SI",
+				"coordinator": "John Fradella",
+				"streetname": "Robin Road",
+				"housenum": "21-25",
+				"borough": "Staten Island",
+				"bin": "5129317"
+			},
+			"geometry": { "type": "Point", "coordinates": [-74.062980454097087, 40.595802570464627] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "dY",
+				"city": "Bronx",
+				"name": "Spuyten Duyvil",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10463",
+				"url": "http://www.nypl.org/locations/spuyten-duyvil",
+				"network": "W-BX",
+				"coordinator": "Erik Ramirez",
+				"streetname": "West 235th Street",
+				"housenum": "650",
+				"borough": "Bronx",
+				"bin": "2085867"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.914650185458399, 40.886285235599253] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "SA",
+				"city": "New York",
+				"name": "St. Agnes",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10024",
+				"url": "http://www.nypl.org/locations/st-agnes",
+				"network": "W-MH",
+				"coordinator": "Carlos Melendez",
+				"streetname": "Amsterdam Avenue",
+				"housenum": "444",
+				"borough": "Manhattan",
+				"bin": "1032683"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.977452115925644, 40.784834636708375] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "SGC",
+				"city": "Staten Island",
+				"name": "St. George Library Center",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10301",
+				"url": "http://www.nypl.org/locations/st-george-library-center",
+				"network": "SI",
+				"coordinator": "Jogn Fradella",
+				"streetname": "Central Avenue",
+				"housenum": "5",
+				"borough": "Staten Island",
+				"bin": "5000030"
+			},
+			"geometry": { "type": "Point", "coordinates": [-74.07667836343802, 40.641799348313839] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "ST",
+				"city": "Staten Island",
+				"name": "Stapleton",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10304",
+				"url": "http://www.nypl.org/locations/stapleton",
+				"network": "SI",
+				"coordinator": "John Fradella",
+				"streetname": "Canal Street",
+				"housenum": "132",
+				"borough": "Staten Island",
+				"bin": "5013792"
+			},
+			"geometry": { "type": "Point", "coordinates": [-74.077863856388362, 40.626256522293644] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "SASB",
+				"city": "New York",
+				"name": "Stephen A. Schwarzman Building",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10018",
+				"url": "http://www.nypl.org/locations/schwarzman",
+				"network": "",
+				"coordinator": "Quiana Valerio",
+				"streetname": "Fifth Avenue at 42nd Street",
+				"housenum": null,
+				"borough": "Manhattan",
+				"bin": "1034194"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.982230803857846, 40.753204422909882] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "CA",
+				"city": "New York",
+				"name": "Terence Cardinal Cooke-Cathedral",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10022",
+				"url": "http://www.nypl.org/locations/cathedral",
+				"network": "E-MH",
+				"coordinator": "Emanuel Roberts",
+				"streetname": "Lexington Avenue",
+				"housenum": "560",
+				"borough": "Manhattan",
+				"bin": "1036451"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.972540826894019, 40.75680235018433] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "TG",
+				"city": "Bronx",
+				"name": "Throg's Neck",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10465",
+				"url": "http://www.nypl.org/locations/throgs-neck",
+				"network": "E-BX",
+				"coordinator": "Kenneth Nesbitt",
+				"streetname": "Cross Bronx Expressway Extension",
+				"housenum": "3025",
+				"borough": "Bronx",
+				"bin": "2077131"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.819094936825493, 40.822872184816852] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "THR",
+				"city": "Staten Island",
+				"name": "Todt Hill-Westerleigh",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10314",
+				"url": "http://www.nypl.org/locations/todt-hill-westerleigh",
+				"network": "SI",
+				"coordinator": "John Fradella",
+				"streetname": "Victory Boulevard",
+				"housenum": "2550",
+				"borough": "Staten Island",
+				"bin": "5035398"
+			},
+			"geometry": { "type": "Point", "coordinates": [-74.148521278338578, 40.609602001721463] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "TS",
+				"city": "New York",
+				"name": "Tompkins Square",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10009",
+				"url": "http://www.nypl.org/locations/tompkins-square",
+				"network": "L-MH",
+				"coordinator": "Kevin Franco",
+				"streetname": "East 10th Street",
+				"housenum": "331",
+				"borough": "Manhattan",
+				"bin": "1005147"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.98042071146763, 40.727288026678721] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "TV",
+				"city": "Staten Island",
+				"name": "Tottenville",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10307",
+				"url": "http://www.nypl.org/locations/tottenville",
+				"network": "SI",
+				"coordinator": "John Fradella",
+				"streetname": "Amboy Road",
+				"housenum": "7430",
+				"borough": "Staten Island",
+				"bin": "5088113"
+			},
+			"geometry": { "type": "Point", "coordinates": [-74.244106708261782, 40.509531123859375] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "TM",
+				"city": "Bronx",
+				"name": "Tremont",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10457",
+				"url": "http://www.nypl.org/locations/tremont",
+				"network": "C-BX",
+				"coordinator": "Orlando Toro",
+				"streetname": "Washington Avenue",
+				"housenum": "1866",
+				"borough": "Bronx",
+				"bin": "2009573"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.898349438168751, 40.846045687363883] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "VC",
+				"city": "Bronx",
+				"name": "Van Cortlandt",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10463",
+				"url": "http://www.nypl.org/locations/van-cortlandt",
+				"network": "W-BX",
+				"coordinator": "Erik Ramirez",
+				"streetname": "Sedgwick Avenue",
+				"housenum": "3874",
+				"borough": "Bronx",
+				"bin": "2015233"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.893921186062798, 40.882779695464357] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "WK",
+				"city": "Bronx",
+				"name": "Wakefield",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10466",
+				"url": "http://www.nypl.org/locations/wakefield",
+				"network": "E-BX",
+				"coordinator": "Kenneth Nesbitt",
+				"streetname": "Lowerre Place",
+				"housenum": "4100",
+				"borough": "Bronx",
+				"bin": "2063175"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.859581244095992, 40.891085065406706] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "WH",
+				"city": "New York",
+				"name": "Washington Heights",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10032",
+				"url": "http://www.nypl.org/locations/washington-heights",
+				"network": "W-MH",
+				"coordinator": "Carlos Melendez",
+				"streetname": "St. Nicholas Avenue",
+				"housenum": "1000",
+				"borough": "Manhattan",
+				"bin": "1062551"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.939710349455666, 40.834548887305765] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "WB",
+				"city": "New York",
+				"name": "Webster",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10021",
+				"url": "http://www.nypl.org/locations/webster",
+				"network": "E-MH",
+				"coordinator": "Emanuel Roberts",
+				"streetname": "York Avenue",
+				"housenum": "1465",
+				"borough": "Manhattan",
+				"bin": "1045991"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.951341694049049, 40.770652543462646] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "WF",
+				"city": "Bronx",
+				"name": "West Farms",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10460",
+				"url": "http://www.nypl.org/locations/west-farms",
+				"network": "C-BX",
+				"coordinator": "Erik Ramirez",
+				"streetname": "Honeywell Avenue",
+				"housenum": "2085",
+				"borough": "Bronx",
+				"bin": "2013151"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.88301210482436, 40.844644453005635] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "NB",
+				"city": "Staten Island",
+				"name": "West New Brighton",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10310",
+				"url": "http://www.nypl.org/locations/west-new-brighton",
+				"network": "SI",
+				"coordinator": "John Fradella",
+				"streetname": "Castleton Avenue",
+				"housenum": "976",
+				"borough": "Staten Island",
+				"bin": "5004936"
+			},
+			"geometry": { "type": "Point", "coordinates": [-74.114821873448633, 40.634508942269541] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "WT",
+				"city": "Bronx",
+				"name": "Westchester Square",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10461",
+				"url": "http://www.nypl.org/locations/westchester-square",
+				"network": "E-BX",
+				"coordinator": "Kenneth Nesbitt",
+				"streetname": "Glebe Avenue",
+				"housenum": "2521",
+				"borough": "Bronx",
+				"bin": "2041911"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.846730618227383, 40.84086754432402] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "WL",
+				"city": "Bronx",
+				"name": "Woodlawn Heights",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10470",
+				"url": "http://www.nypl.org/locations/woodlawn-heights",
+				"network": "W-BX",
+				"coordinator": "Erik Ramirez",
+				"streetname": "Katonah Avenue",
+				"housenum": "4355",
+				"borough": "Bronx",
+				"bin": "2019288"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.867942000005357, 40.900439909757182] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "WO",
+				"city": "Bronx",
+				"name": "Woodstock",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10456",
+				"url": "http://www.nypl.org/locations/woodstock",
+				"network": "C-BX",
+				"coordinator": "Orlando Toro",
+				"streetname": "East 160th Street",
+				"housenum": "761",
+				"borough": "Bronx",
+				"bin": "2004700"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.904647993476942, 40.82061890603643] }
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"code": "YV",
+				"city": "New York",
+				"name": "Yorkville",
+				"system": "NYPL",
+				"status": "Open",
+				"zip": "10021",
+				"url": "http://www.nypl.org/locations/yorkville",
+				"network": "E-MH",
+				"coordinator": "Emanuel Roberts",
+				"streetname": "East 79th Street",
+				"housenum": "222",
+				"borough": "Manhattan",
+				"bin": "1044180"
+			},
+			"geometry": { "type": "Point", "coordinates": [-73.956372523193338, 40.773655641613949] }
+		}
+	]
+}
