@@ -144,8 +144,13 @@
           map.on('zoom', () => {
             const currentZoom = map.getZoom();
             if(currentZoom >= 18) {
+              
               for(let i = 0; i < allMarks.length; i++) {
-                console.log(i)
+                allMarks[i].style.zIndex = -1
+            }
+          } else {
+            for(let i = 0; i < allMarks.length; i++) {
+              allMarks[i].style.zIndex = 1
             }
           }
         });
