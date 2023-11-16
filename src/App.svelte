@@ -195,6 +195,7 @@
             // Populate the popup and set its coordinates
             // based on the feature found.
             popup.setLngLat(coordinates).setHTML(description).addTo(map);
+            popup.style.zIndex = 5;
           });
 
           map.on("mouseleave", "libraries", () => {
