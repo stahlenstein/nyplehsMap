@@ -8,18 +8,26 @@
   let mapContainer;
   let lng, lat, zoom;
 
-  lng = -73.982544;
-  lat = 40.753322;
-  zoom = 11;
+  const bounds = [
+[-74.51486471433522, 40.49469766822682], // Southwest coordinates
+[-73.39945580979894, 40.92186132573724] // Northeast coordinates
+];
+
+  lng = -74.0000;
+  lat = 40.7500;
+  zoom = 9;
 
   function updateData() {
     zoom = map.getZoom();
     lng = map.getCenter().lng;
     lat = map.getCenter().lat;
+
   }
 
   onMount(() => {
     const initialState = { lng: lng, lat: lat, zoom: zoom };
+
+
 
 
     map = new Map({
@@ -28,7 +36,9 @@
       style: `mapbox://styles/stahlstradamus/cloecokpb001v01p80phr35aj`,
       center: [initialState.lng, initialState.lat],
       zoom: initialState.zoom,
+      maxBounds: bounds
     });
+
 
     var libData = `https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/Libraries.geojson`;
 
@@ -84,6 +94,7 @@
             }
           });
 
+          // creating and adding button to close infobox
           var infoCloseBtn = document.getElementById("close");
           infoCloseBtn.addEventListener("click", () => {
             console.log("button clicked!");
@@ -103,9 +114,10 @@
             m.style.backgroundSize = "100%";
             m.style.width = "12.5px";
             m.style.height = "12.5px";
-            // console.log('Makersdata', marker.properties.code);
+
 
             var popup = new mapboxgl.Popup().setText("name").addTo(map);
+
 
             var infoHeader = document.querySelector(".libName");
             var libAddress = document.querySelector(".libAddress");
@@ -116,14 +128,11 @@
 
         
 
+            // Creating Clickable Markers
             new ClickableMarker(m)
               .setLngLat(marker.geometry.coordinates)
               .onClick(() => {
-                // onClick() is a thing now!
-                console.log(
-                  `You clicked ${data.name}!`,
-                  marker.properties.name
-                );
+                // Adding marker info from GeoJson to InfoBox
                 infoHeader.innerHTML = `${marker.properties.name}`;
                 libAddress.innerHTML =
                   `${marker.properties.housenum}` +
@@ -135,11 +144,11 @@
                 libCoord.innerHTML = `${marker.properties.coordinator}`;
               })
               .addTo(map);
-              
 
-
+              // End of Marker Addition and Marker Data
           }
 
+          // Hide/Show Markers dependant on Zoom level
           var allMarks = document.querySelectorAll("#marker")
           map.on('zoom', () => {
             const currentZoom = map.getZoom();
@@ -159,7 +168,7 @@
             id: "libraries",
             type: "circle",
             source: "libraries",
-            "minzoom": 12,
+            "minzoom": 0,
             paint: {
               "circle-radius": 8,
               "circle-stroke-width": 3,
@@ -196,25 +205,28 @@
           map.on("click", (e) => {
             const iBDiv = document.querySelector(".infoBox");
             const libName = document.querySelector(".infoHead > h1");
-            iBDiv.style.zIndex = 1;
+            iBDiv.style.zIndex = 3;
           });
         });
         
+        // fetching geojson data for building footprints
         fetch(`https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/buildingftprints.geojson`)
         .then((response) => response.json())
         .then((footprints) => {
         
+          // creating source for building footprints
           map.addSource("footprints", {
             type: "geojson",
             data: footprints,
           });
 
+          // adding layer for building footprints
           map.addLayer({
             id: "footprints",
             type: "fill",
             source: "footprints",
             paint: {
-              "fill-color": "rgba(100, 100, 100, 0.25)",
+              "fill-color": "rgba(200, 200, 200, 1)",
               "fill-outline-color": "black"
             },
           });
