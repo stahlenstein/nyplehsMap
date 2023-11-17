@@ -110,12 +110,26 @@
             const m = document.createElement("div");
             m.className = "marker" + marker.properties.code;
             m.id = "marker";
-            m.style.backgroundImage = `url(https://raw.githubusercontent.com/stahlenstein/NycLibMap/master/static/icons/Branch_line.png)`;
+            // m.style.backgroundImage = `url(https://raw.githubusercontent.com/stahlenstein/NycLibMap/master/static/icons/Branch_line.png)`;
             m.style.backgroundSize = "100%";
-            m.style.width = "12.5px";
-            m.style.height = "12.5px";
+            m.style.width = "20px";
+            m.style.height = "20px";
 
-
+            if(marker.properties.code === 'SASB') {
+              m.style.backgroundImage =`url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/SASB.png)`
+              console.log(m)
+            }
+            else if(marker.properties.code === 'SCH') {
+              m.style.backgroundImage =`url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/Burg.png)`
+            }
+            else if(marker.properties.code === 'LPA') {
+              m.style.backgroundImage = `url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/LPA.png)`
+            }
+            else if(marker.properties.code === 'LSC') {
+              m.style.backgroundImage = `url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/LSC.png)`
+            } else {
+              m.style.backgroundImage = `url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/Library.png)`
+            };
 
             var popup = new mapboxgl.Popup().setText("name").addTo(map);
 
@@ -196,7 +210,6 @@
             // Populate the popup and set its coordinates
             // based on the feature found.
             popup.setLngLat(coordinates).setHTML(description).addTo(map);
-            popup.style.zIndex = 5;
           });
 
           map.on("mouseleave", "libraries", () => {
