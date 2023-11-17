@@ -117,7 +117,6 @@
 
             if(marker.properties.code === 'SASB') {
               m.style.backgroundImage =`url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/SASB.png)`
-              console.log(m)
             }
             else if(marker.properties.code === 'SCH') {
               m.style.backgroundImage =`url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/Burg.png)`
@@ -132,6 +131,7 @@
             };
 
             var popup = new mapboxgl.Popup().setText("name").addTo(map);
+            console.log(popup)
 
 
             var infoHeader = document.querySelector(".libName");
@@ -375,5 +375,9 @@
     background-color: red;
     border-color: transparent;
     border-radius: 10px;
+  }
+
+  .mapboxgl-popup {
+    z-index: 5;
   }
 </style>
