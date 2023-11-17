@@ -116,6 +116,7 @@
             m.style.height = "12.5px";
 
 
+
             var popup = new mapboxgl.Popup().setText("name").addTo(map);
 
 
