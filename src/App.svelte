@@ -127,7 +127,7 @@
             else if(marker.properties.code === 'LSC') {
               m.style.backgroundImage = `url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/LSC.png)`
             } else {
-              m.style.backgroundImage = `url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/Library.png)`
+              m.style.backgroundImage = `url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/Library.svg)`
             };
 
             var popup = new mapboxgl.Popup().setText("name").addTo(map);
