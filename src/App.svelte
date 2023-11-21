@@ -1,6 +1,7 @@
 <script>
   import { onMount, onDestroy } from "svelte";
   import mapboxgl, { Map } from "mapbox-gl";
+  import { layerControlGrouped } from "../node_modules/mapbox-layer-control/layerControlGrouped"
   import "../node_modules/mapbox-gl/dist/mapbox-gl.css";
   import "@nypl/design-system-react-components/dist/styles.css";
 
@@ -121,7 +122,6 @@
             }
 
             var popup = new mapboxgl.Popup().setText("name").addTo(map);
-            console.log(popup);
 
             var infoHeader = document.querySelector(".libName");
             var libAddress = document.querySelector(".libAddress");
@@ -236,10 +236,207 @@
 
       // fetching geojson data for building footprints
       fetch(
-        `https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/Lower Manhattan.geojson`
+        `https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/Lower%20Manhattan.geojson`
       )
         .then((response) => response.json())
-        .then((footprints) => {});
+        .then((LM) => {
+          map.addSource("LM", {
+            type: "geojson",
+            data: LM,
+          });
+
+          map.addLayer({
+            id: "LowMan",
+            type: "fill",
+            source: "LM",
+            paint: {
+              "fill-color": "rgba(255, 0, 0, 0.4)",
+              "fill-outline-color": "black",
+            },
+          });
+        });
+
+      // fetching geojson data for building footprints
+      fetch(
+        `https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/East%20Manhattan.geojson`
+      )
+        .then((response) => response.json())
+        .then((EM) => {
+          map.addSource("EM", {
+            type: "geojson",
+            data: EM,
+          });
+
+          map.addLayer({
+            id: "EastMan",
+            type: "fill",
+            source: "EM",
+            paint: {
+              "fill-color": "rgba(255, 0, 0, 0.25)",
+              "fill-outline-color": "black",
+            },
+          });
+        });
+
+      // fetching geojson data for building footprints
+      fetch(
+        `https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/West%20Manhattan.geojson`
+      )
+        .then((response) => response.json())
+        .then((WM) => {
+          map.addSource("WM", {
+            type: "geojson",
+            data: WM,
+          });
+
+          map.addLayer({
+            id: "WestMan",
+            type: "fill",
+            source: "WM",
+            paint: {
+              "fill-color": "rgba(255, 0, 0, 0.1)",
+              "fill-outline-color": "black",
+            },
+          });
+        });
+
+      // fetching geojson data for building footprints
+      fetch(
+        `https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/West%20Bronx.geojson`
+      )
+        .then((response) => response.json())
+        .then((WB) => {
+          map.addSource("WB", {
+            type: "geojson",
+            data: WB,
+          });
+
+          map.addLayer({
+            id: "WestBro",
+            type: "fill",
+            source: "WB",
+            paint: {
+              "fill-color": "rgba(107, 9, 172, 0.35)",
+              "fill-outline-color": "black",
+            },
+          });
+        });
+
+      // fetching geojson data for building footprints
+      fetch(
+        `https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/Central%20Bronx.geojson`
+      )
+        .then((response) => response.json())
+        .then((CB) => {
+          map.addSource("CB", {
+            type: "geojson",
+            data: CB,
+          });
+
+          map.addLayer({
+            id: "CenBro",
+            type: "fill",
+            source: "CB",
+            paint: {
+              "fill-color": "rgba(107, 9, 172, 0.15)",
+              "fill-outline-color": "black",
+            },
+          });
+        });
+
+      // fetching geojson data for building footprints
+      fetch(
+        `https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/EastBronx.geojson`
+      )
+        .then((response) => response.json())
+        .then((EB) => {
+          map.addSource("EB", {
+            type: "geojson",
+            data: EB,
+          });
+
+          map.addLayer({
+            id: "EastBro",
+            type: "fill",
+            source: "EB",
+            paint: {
+              "fill-color": "rgba(107, 9, 172, 0.25)",
+              "fill-outline-color": "black",
+            },
+          });
+        });
+
+      // fetching geojson data for building footprints
+      fetch(
+        `https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/Staten%20Island.geojson`
+      )
+        .then((response) => response.json())
+        .then((SI) => {
+          map.addSource("SI", {
+            type: "geojson",
+            data: SI,
+          });
+
+          map.addLayer({
+            id: "StatIsl",
+            type: "fill",
+            source: "SI",
+            paint: {
+              "fill-color": "rgba(0, 130, 255, 0.25)",
+              "fill-outline-color": "black",
+            },
+          });
+        });
+
+        var config = {
+        collapsed: false,
+        layers: [
+          {
+            id: "LowMan",
+            hidden: false,
+            children: false,
+            directory: "Networks"
+          },
+          {
+            id: "EastMan",
+            hidden: false,
+            children: false,
+            directory: "Networks"
+          },
+          {
+            id: "WestMan",
+            hidden: false,
+            children: false,
+            directory: "Networks"
+          },
+          {
+            id: "WestBro",
+            hidden: false,
+            children: false,
+            directory: "Networks"
+          },
+          {
+            id: "CenBro",
+            hidden: false,
+            children: false,
+            directory: "Networks"
+          },
+          {
+            id: "EastBro",
+            hidden: false,
+            children: false,
+            directory: "Networks"
+          },
+          {
+            id: "StatIsl",
+            hidden: false,
+            children: false,
+            directory: "Networks"
+          },
+        ]
+      }
+
+        map.addControl( new layerControlGrouped(config), "top-right");
     });
 
     // Fullscreen Control
