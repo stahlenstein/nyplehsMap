@@ -9,26 +9,22 @@
   let lng, lat, zoom;
 
   const bounds = [
-[-74.51486471433522, 40.49469766822682], // Southwest coordinates
-[-73.39945580979894, 40.92186132573724] // Northeast coordinates
-];
+    [-74.51486471433522, 40.49469766822682], // Southwest coordinates
+    [-73.39945580979894, 40.92186132573724], // Northeast coordinates
+  ];
 
-  lng = -74.0000;
-  lat = 40.7500;
+  lng = -74.0;
+  lat = 40.75;
   zoom = 9;
 
   function updateData() {
     zoom = map.getZoom();
     lng = map.getCenter().lng;
     lat = map.getCenter().lat;
-
   }
 
   onMount(() => {
     const initialState = { lng: lng, lat: lat, zoom: zoom };
-
-
-
 
     map = new Map({
       container: mapContainer,
@@ -36,9 +32,8 @@
       style: `mapbox://styles/stahlstradamus/cloecokpb001v01p80phr35aj`,
       center: [initialState.lng, initialState.lat],
       zoom: initialState.zoom,
-      maxBounds: bounds
+      maxBounds: bounds,
     });
-
 
     var libData = `https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/Libraries.geojson`;
 
@@ -102,8 +97,6 @@
             iB.style.zIndex = -1;
           });
 
-
-
           // Add markers to the map.
           for (const marker of data.features) {
             // Create a DOM element for each marker.
@@ -115,24 +108,20 @@
             m.style.width = "20px";
             m.style.height = "20px";
 
-            if(marker.properties.code === 'SASB') {
-              m.style.backgroundImage =`url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/SASB.svg)`
-            }
-            else if(marker.properties.code === 'SCH') {
-              m.style.backgroundImage =`url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/Burg.svg)`
-            }
-            else if(marker.properties.code === 'LPA') {
-              m.style.backgroundImage = `url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/LPA.svg)`
-            }
-            else if(marker.properties.code === 'LSC') {
-              m.style.backgroundImage = `url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/LSC.svg)`
+            if (marker.properties.code === "SASB") {
+              m.style.backgroundImage = `url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/SASB.svg)`;
+            } else if (marker.properties.code === "SCH") {
+              m.style.backgroundImage = `url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/Burg.svg)`;
+            } else if (marker.properties.code === "LPA") {
+              m.style.backgroundImage = `url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/LPA.svg)`;
+            } else if (marker.properties.code === "LSC") {
+              m.style.backgroundImage = `url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/LSC.svg)`;
             } else {
-              m.style.backgroundImage = `url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/branch.svg)`
-            };
+              m.style.backgroundImage = `url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/branch.svg)`;
+            }
 
             var popup = new mapboxgl.Popup().setText("name").addTo(map);
-            console.log(popup)
-
+            console.log(popup);
 
             var infoHeader = document.querySelector(".libName");
             var libAddress = document.querySelector(".libAddress");
@@ -140,8 +129,6 @@
             var libNetwork = document.querySelector(".libNetwork");
             var libStatus = document.querySelector(".libStatus");
             var libCoord = document.querySelector(".libCoord");
-
-        
 
             // Creating Clickable Markers
             new ClickableMarker(m)
@@ -160,30 +147,29 @@
               })
               .addTo(map);
 
-              // End of Marker Addition and Marker Data
+            // End of Marker Addition and Marker Data
           }
 
           // Hide/Show Markers dependant on Zoom level
-          var allMarks = document.querySelectorAll("#marker")
-          map.on('zoom', () => {
+          var allMarks = document.querySelectorAll("#marker");
+          map.on("zoom", () => {
             const currentZoom = map.getZoom();
-            if(currentZoom >= 18) {
-              
-              for(let i = 0; i < allMarks.length; i++) {
-                allMarks[i].style.zIndex = -1
+            if (currentZoom >= 18) {
+              for (let i = 0; i < allMarks.length; i++) {
+                allMarks[i].style.zIndex = -1;
+              }
+            } else {
+              for (let i = 0; i < allMarks.length; i++) {
+                allMarks[i].style.zIndex = 1;
+              }
             }
-          } else {
-            for(let i = 0; i < allMarks.length; i++) {
-              allMarks[i].style.zIndex = 1
-            }
-          }
-        });
+          });
 
           map.addLayer({
             id: "libraries",
             type: "circle",
             source: "libraries",
-            "minzoom": 0,
+            minzoom: 0,
             paint: {
               "circle-radius": 8,
               "circle-stroke-width": 3,
@@ -223,12 +209,13 @@
             iBDiv.style.zIndex = 3;
           });
         });
-        
-        // fetching geojson data for building footprints
-        fetch(`https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/buildingftprints.geojson`)
+
+      // fetching geojson data for building footprints
+      fetch(
+        `https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/buildingftprints.geojson`
+      )
         .then((response) => response.json())
         .then((footprints) => {
-        
           // creating source for building footprints
           map.addSource("footprints", {
             type: "geojson",
@@ -242,13 +229,17 @@
             source: "footprints",
             paint: {
               "fill-color": "rgba(200, 200, 200, 1)",
-              "fill-outline-color": "black"
+              "fill-outline-color": "black",
             },
           });
         });
 
-
-
+      // fetching geojson data for building footprints
+      fetch(
+        `https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/buildingftprints.geojson`
+      )
+        .then((response) => response.json())
+        .then((footprints) => {});
     });
 
     // Fullscreen Control
@@ -278,6 +269,9 @@
     Longitude: {lng.toFixed(4)} | Latitude: {lat.toFixed(4)} | Zoom: {zoom.toFixed(
       2
     )}
+  </div>
+  <div class="titleDiv">
+    <div>NYPL EHS Map</div>
   </div>
   <div class="infoBox">
     <div class="infoClose">
@@ -325,6 +319,23 @@
     width: 100%;
     height: 100%;
   }
+
+  .titleDiv {
+    position: absolute;
+    background: rgba(85, 85, 85, 0.1);
+    backdrop-filter: blur(10px);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    padding: 10px 30px;
+    left: 1%;
+    top: 1%;
+    z-index: 3;
+    border-radius: 3px;
+  }
+
   .sidebar {
     background-color: rgba(35, 55, 75, 0.9);
     color: #fff;
@@ -332,7 +343,7 @@
     font-family: monospace;
     z-index: -1;
     position: absolute;
-    top: 0;
+    bottom: 1%;
     left: 0;
     margin: 12px;
     border-radius: 4px;
@@ -345,7 +356,7 @@
     font-family: system-ui;
     z-index: -1;
     position: absolute;
-    top: 3%;
+    top: 5%;
     left: 0;
     margin: 12px;
     border-radius: 4px;
