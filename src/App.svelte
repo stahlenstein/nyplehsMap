@@ -116,18 +116,18 @@
             m.style.height = "20px";
 
             if(marker.properties.code === 'SASB') {
-              m.style.backgroundImage =`url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/SASB.png)`
+              m.style.backgroundImage =`url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/SASB.svg)`
             }
             else if(marker.properties.code === 'SCH') {
-              m.style.backgroundImage =`url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/Burg.png)`
+              m.style.backgroundImage =`url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/Burg.svg)`
             }
             else if(marker.properties.code === 'LPA') {
-              m.style.backgroundImage = `url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/LPA.png)`
+              m.style.backgroundImage = `url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/LPA.svg)`
             }
             else if(marker.properties.code === 'LSC') {
-              m.style.backgroundImage = `url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/LSC.png)`
+              m.style.backgroundImage = `url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/LSC.svg)`
             } else {
-              m.style.backgroundImage = `url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/Library.svg)`
+              m.style.backgroundImage = `url(https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/icons/branch.svg)`
             };
 
             var popup = new mapboxgl.Popup().setText("name").addTo(map);
