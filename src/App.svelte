@@ -236,7 +236,7 @@
 
       // fetching geojson data for building footprints
       fetch(
-        `https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/buildingftprints.geojson`
+        `https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/Lower Manhattan.geojson`
       )
         .then((response) => response.json())
         .then((footprints) => {});
