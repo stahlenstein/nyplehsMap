@@ -236,7 +236,7 @@
 
       // fetching geojson data for building footprints
       fetch(
-        `https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/Lower%20Manhattan.geojson`
+        `https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/LowerManhattan.geojson`
       )
         .then((response) => response.json())
         .then((LM) => {
@@ -258,7 +258,7 @@
 
       // fetching geojson data for building footprints
       fetch(
-        `https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/East%20Manhattan.geojson`
+        `https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/EastManhattan.geojson`
       )
         .then((response) => response.json())
         .then((EM) => {
@@ -280,7 +280,7 @@
 
       // fetching geojson data for building footprints
       fetch(
-        `https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/West%20Manhattan.geojson`
+        `https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/WestManhattan.geojson`
       )
         .then((response) => response.json())
         .then((WM) => {
@@ -302,7 +302,7 @@
 
       // fetching geojson data for building footprints
       fetch(
-        `https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/West%20Bronx.geojson`
+        `https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/WestBronx.geojson`
       )
         .then((response) => response.json())
         .then((WB) => {
@@ -324,7 +324,7 @@
 
       // fetching geojson data for building footprints
       fetch(
-        `https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/Central%20Bronx.geojson`
+        `https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/CentralBronx.geojson`
       )
         .then((response) => response.json())
         .then((CB) => {
@@ -368,7 +368,7 @@
 
       // fetching geojson data for building footprints
       fetch(
-        `https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/Staten%20Island.geojson`
+        `https://raw.githubusercontent.com/stahlenstein/nyplehsMap/main/static/data/StatenIsland.geojson`
       )
         .then((response) => response.json())
         .then((SI) => {
@@ -393,43 +393,50 @@
         layers: [
           {
             id: "LowMan",
-            hidden: false,
+            group: "Works",
+            hidden: true,
             children: false,
             directory: "Networks"
           },
           {
             id: "EastMan",
-            hidden: false,
+            group: "Works",
+            hidden: true,
             children: false,
             directory: "Networks"
           },
           {
             id: "WestMan",
-            hidden: false,
+            group: "Works",
+            hidden: true,
             children: false,
             directory: "Networks"
           },
           {
             id: "WestBro",
-            hidden: false,
+            group: "Works",
+            hidden: true,
             children: false,
             directory: "Networks"
           },
           {
             id: "CenBro",
-            hidden: false,
+            group: "Works",
+            hidden: true,
             children: false,
             directory: "Networks"
           },
           {
             id: "EastBro",
-            hidden: false,
+            group: "Works",
+            hidden: true,
             children: false,
             directory: "Networks"
           },
           {
             id: "StatIsl",
-            hidden: false,
+            group: "Works",
+            hidden: true,
             children: false,
             directory: "Networks"
           },
